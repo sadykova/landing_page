@@ -71,6 +71,10 @@ header {
   background-color: white;
 }
 
+.grey {
+  background-color: #e5e4e2;
+}
+
 .random-info {
   max-width: 1300px;
   margin: auto;
