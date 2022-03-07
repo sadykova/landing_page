@@ -11,6 +11,7 @@
   --main-white: #f9faf8;
   --secondary-white: #e5e7eb;
   --main-blue: #3882f6;
+  --grey: #1f2937;
 }
 
 body {
@@ -66,9 +67,43 @@ header {
   font-size: 18px;
 }
 
+.light {
+  background-color: white;
+}
+
 .random-info {
   max-width: 1300px;
-  background-color: var(--main-white);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.blue-square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card p {
+  color: var(--grey);
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
 }
 
 ul {
@@ -88,6 +123,13 @@ h1 {
   color: var(--main-white);
   font-weight: bolder;
   margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: var(--dark-color);
+  margin: 75px 0px;
 }
 
 p {
