@@ -119,6 +119,31 @@ header {
   padding: 100px 0px;
 }
 
+.call-to-action {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: var(--main-blue);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-call {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.border-white {
+  border: 1px solid white;
+  padding: 0px 40px;
+  font-weight: 800;
+}
+
 blockquote {
   font-size: 36px;
   font-style: italic;
@@ -133,6 +158,7 @@ figcaption {
   display: flex;
   justify-content: flex-end;
 }
+
 ul {
   display: flex;
   gap: 20px;
